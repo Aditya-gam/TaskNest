@@ -1,0 +1,12 @@
+{
+    "type": "postgres",
+    "host": "postgres",
+    "port": 5432,
+    "username": "tickdone",
+    "password": "tickdone123",
+    "database": "taskmanager",
+    "entities": ["src/entities/*.js"],
+    "synchronize": true,
+    "logging": false
+  }
+  
